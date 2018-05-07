@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Andrew Puntillo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta http-equiv="x-ua-compatible" content="ie=edge">
+		<link href="images/shortcut-icon.png" rel="shortcut icon" type="image/png">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<!--Header-->
+			<div id="header">
+				<a href="#home"><img class="logoBtn" src="images/AJP_Logo_Small.png" alt="Andrew Puntillo Logo" width="30px" height="30px" /></a>
+				<!--Navigation-->
+				<div class="nav">
+					<ul>
+						<li><a href="#home">HOME</a></li>
+						<li><a href="#about" class="scroll">ABOUT</a></li>
+						<li><a href="#work" class="scroll">WORK</a></li>
+						<li><a href="#contact" class="scroll">CONTACT</a></li>
+					</ul>
+				</div> <!--nav-->
+			</div> <!--header-->
+			<!--Home-->
+			<div id="home">
+				<div id="splashContent">
+					<h1 class="splashTitle">HI, I'M ANDREW PUNTILLO;</h1>
+					<p class="splashText">I am a game.Developer();</p>
+				</div>
+				<div id="arrowWrapper">
+					<div id="downArrow">
+						<a href="#about"><img src="images/downArrow.png"  width="20" height="15.5" /></a>
+					</div>
+				</div>
+			</div><!--home-->
+			<!--About Me-->
+			<div id="about">
+				<div class="centerAlign"><div class="contentWrapper">
+					<div id="contentLeft">
+						<div id="logowidget"></div>
+					</div>
+					<div id="contentRight">
+						<div id="aboutDescription">
+							<h2 id="aboutTitle">ABOUT ME</h2>
+							<p>My name is Andrew Puntillo and I am a Game Developer. Video games have been a part of my life since an early age. I’ve grown up climbing colossi, jumping through portals, and escaping from sunken raptures. The worlds I’ve explored heavily inspire me and drive my passion for the work that I do. Perpetually honing my skills, I aim to always become a better version of myself so that I can one day share the same experiences I’ve had within the gaming world.</p>
+						</div>
+						<div id="skillList">
+							<div id="leftList">
+								<h3 id="aboutTitle">LANGUAGES I SPEAK</h3>
+								<ul>
+									<li class="cross">C++</li>
+									<li class="cross">C#</li>
+									<li class="cross">Java</li>
+									<li class="cross">Javascript</li>
+									<li class="cross">HTML/CSS</li>
+								</ul>
+							</div>
+							<div id="rightList">
+								<h3 id="aboutTitle">MY TOOLBOX</h3>
+								<ul>
+									<li class="cross">Unity</li>
+									<li class="cross">Unreal</li>
+									<li class="cross">OpenGL</li>
+									<li class="cross">Adobe Creative Suite</li>
+									<li class="cross">3DS Max</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div></div>
+			</div><!--about-->
+			<!--My Work-->
+			<div id="work">
+				<h2 id="workTitle"></h2>
+			  	<div class="workSlider">
+			        <input type="radio" name="slides" id="slides_1" checked />
+			        <input type="radio" name="slides" id="slides_2" />
+			        <input type="radio" name="slides" id="slides_3" />
+			        <ul>
+						<li class="workSlide">
+							<div class="workContentRight">
+								<div class="container">
+								  <img id="expandedImg_1" style="width:100%">
+								</div>
+								<div class="row">
+								  <div class="column">
+								    <img src="images/AeonEngine_1.jpg" alt="Title screen of Archon" onmouseenter="ImageSelect(this, 'expandedImg_1');" onclick="ImageSelect(this, 'expandedImg_1');" id="firstImage">
+								  </div>
+								  <div class="column">
+								    <img src="images/AeonEngine_2.jpg" alt="In-game screenshot of Archon" onmouseenter="ImageSelect(this, 'expandedImg_1');">
+								  </div>
+								  <div class="column lastCol">
+								    <img src="images/AeonEngine_3.jpg" alt="Screenshot of the some features in the Aeon Engine" onmouseenter="ImageSelect(this, 'expandedImg_1');">
+								  </div>
+								</div>
+							</div>
+							<div class="workContentLeft">
+								<h1 class="projectTitle">Aeon Engine / Archon</h1>
+								<p>The Aeon Engine is a custom engine that I built using C++ for my final year capstone at Humber College. Using OpenGL, I created a framework that contains rendering, shaders, model loading, lighting, input management, and more.</p>
+								<p>Using this framework, I developed Archon, a 3D isometric turn-based strategy game. Throughout the development of the engine and the game, I learned a lot about the power of C++ and being able to optimize more efficiently. I also learned a lot about graphical programming and enjoying developing shaders for the game.</p>
+								<p>Check out the code on <a target="_blank" href="https://github.com/AJPuntillo/AeonEngine">Github</a></p>
+							</div>
+						</li>
+						<li class="workSlide">
+							<div class="workContentRight">
+								<div class="container">
+								  <img id="expandedImg_2" style="width:100%">
+								</div>
+								<div class="row">
+								  <div class="column">
+								    <img src="images/SteelDungeon_1.jpg" alt="Title screen of Archon" onmouseenter="ImageSelect(this, 'expandedImg_2');" onclick="ImageSelect(this, 'expandedImg_2');" id="secondImage">
+								  </div>
+								  <div class="column">
+								    <img src="images/SteelDungeon_2.jpg" alt="In-game screenshot of Archon" onmouseenter="ImageSelect(this, 'expandedImg_2');">
+								  </div>
+								  <div class="column lastCol">
+								    <img src="images/SteelDungeon_3.jpg" alt="Screenshot of the some features in the Aeon Engine" onmouseenter="ImageSelect(this, 'expandedImg_2');">
+								  </div>
+								</div>
+							</div>
+							<div class="workContentLeft">
+							<h1 class="projectTitle">Steel Dungeon</h1>
+								<p>Steel Dungeon is a 2D roguelike dungeon crawler made in Unity. The game consists of the player battling through randomly chosen maps, collecting loot, and becoming more powerful as they advance. Items, enemies, and bosses are randomly spawned for each map. The game a has been developed for both PC and mobile devices.</p>
+								<p>Responsibilites: level design, AI of the enemies, level generation, RNG, and the menus.</p>
+								<p>Check out the code on <a target="_blank" href="https://github.com/AJPuntillo">Github</a></p>
+							</div>
+						</li>
+						<li class="workSlide">
+							<div class="workContentRight">
+								<div class="container">
+								  <img id="expandedImg_3" style="width:100%">
+								</div>
+								<div class="row">
+								  <div class="column">
+								    <img src="images/CreatureFighter_1.jpg" alt="Title screen of Archon" onmouseenter="ImageSelect(this, 'expandedImg_3');" onclick="ImageSelect(this, 'expandedImg_3');" id="thirdImage">
+								  </div>
+								  <div class="column">
+								    <img src="images/CreatureFighter_2.jpg" alt="In-game screenshot of Archon" onmouseenter="ImageSelect(this, 'expandedImg_3');">
+								  </div>
+								  <div class="column lastCol">
+								    <img src="images/CreatureFighter_3.jpg" alt="Screenshot of the some features in the Aeon Engine" onmouseenter="ImageSelect(this, 'expandedImg_3');">
+								  </div>
+								</div>
+							</div>
+							<div class="workContentLeft">
+							<h1 class="projectTitle">Creature Fighter</h1>
+								<p>Creature Fighter is a 3D action RPG made in Unreal. Players must work together, hacking and slashing to defeat boss monsters and gain loot. The game is played with up to 4 players and networked. The boss scales up in power the more players in the game.</p>
+								<p>Responsibilites: level design, networking, UI/menus, and gameplay.</p>
+							</div>
+						</li>
+			        </ul>
+			        <div class="workNav">
+			            <div>
+			                <label for="slides_1"></label>
+			                <label for="slides_2"></label>
+			                <label for="slides_3"></label>
+			            </div>
+			        </div>
+			    </div>
+			</div><!--work-->
+			<!--Contact Me-->
+			<div id="contact">
+				<h2 id="contactTitle">FEEL FREE TO CONTACT ME!</h2>
+				<p>Interested in working together? Don't hesitate to check out my GitHub, LinkedIn, or simply send me an email!</p>
+				<div class="contactIcons">
+					<a target="_blank" href="mailto:ajpuntillo@gmail.com">Email</a>&nbsp;|&nbsp;
+					<a target="_blank" href="https://github.com/AJPuntillo">GitHub</a>&nbsp;|&nbsp;
+					<a target="_blank" href="https://www.linkedin.com/in/AJPuntillo">LinkedIn</a>
+				</div>
+			</div><!--contact-->
+			<!--Footer-->
+			<div id="footer">
+				<div class="vertAlign"><p id="copyright">&copy; 2018 Andrew Puntillo</p></div>
+			</div><!--footer-->
+		</div> <!--wrapper-->
+	<!--Jquery-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/three.js"></script>
+    <script src="js/AssimpJSONLoader.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/LogoWidget.js"></script>
+	<script>
+		$(document).ready(function(){
+
+			$('.menuBtn').on('click', function() {
+				$('.nav').toggleClass('open');
+				$('.menuBtn').toggleClass('open');
+			});
+
+			var $root = $('html, body');
+			$('a').click(function() {
+    			$root.animate({
+        			scrollTop: $( $.attr(this, 'href') ).offset().top - 50
+    			}, 600);
+   			 	return false;
+			});
+			
+		});
+
+		function ImageSelect(imgs, id) {
+		    var expandImg = document.getElementById(id);
+		    expandImg.src = imgs.src;
+		    expandImg.parentElement.style.display = "block";
+		}
+
+		document.getElementById("firstImage").click();
+		document.getElementById("secondImage").click();
+		document.getElementById("thirdImage").click();
+	</script>
+	<script>
+		var logo = new LogoWidget();
+        logo.Init(300, 300, "logowidget");
+
+        var Update = function() {
+	        //Causes the function to loop
+    		requestAnimationFrame(Update);
+    		logo.Render();
+        }
+
+        Update();
+	</script>
+	</body>
+</html>
